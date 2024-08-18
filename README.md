@@ -190,15 +190,17 @@ For Windows users having issues with binding to a redis port locally, refer to [
 
 ## Gettin up and running with Docker and docker-compose:
 
-##### Clone the repository 
-```
-$ git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
-$ cd REPO_NAME
-```
-##### Create and run the images:
+##### Clone the repository and run the images:
 
 ```
-$ docker-compose up
+  git clone https://github.com/SumonPaul18/flask-loging-system-01.git
+  cd flask-loging-system-01
+  docker-compose up
+```
+##### Create 
+```
+   docker compose ps
+   docker ps
 ```
 
 ##### Create database and initial data for development:
